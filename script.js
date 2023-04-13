@@ -15,15 +15,15 @@ class Person {
 
 class Student extends Person {
 	get study(){
-		// console.log();
-		return this.name + " is studying";
+		console.log(this.name + " is studying");
+		// return ;
 	}
 }
 
 class Teacher extends Person {
 	get teach(){
-		// console.log();
-		return this.name + " is teaching";
+		console.log(this.name + " is teaching");
+		// return ;
 	}
 	
 }
