@@ -15,13 +15,13 @@ class Person {
 }
 
 class Student extends Person {
-	study(){
+	this.study(){
 		console.log(this.name + "is studying");
 	}
 }
 
 class Teacher extends Person {
-	teach(){
+	this.teach(){
 		console.log(this.name + "is teaching");
 	}
 }
