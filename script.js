@@ -5,27 +5,29 @@ class Person {
 		this.age = age;
 	}
 
-	get name(){
+	get getName(){
 		return this.name;
 	}
 
-	set age(age){
+	set setAge(age){
 		this.age = age;
 	}
 }
 
 class Student extends Person {
-	this.study(){
+	study(){
 		console.log(this.name + "is studying");
 	}
 }
 
 class Teacher extends Person {
-	this.teach(){
+	teach(){
 		console.log(this.name + "is teaching");
 	}
 }
 
+// const t1 = new Teacher("john" , 25);
+// t1.teach();
 // Do not change the code below this line
 window.Person = Person;
 window.Student = Student;
